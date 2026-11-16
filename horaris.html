@@ -1,28 +1,83 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horaris</title>
     <link rel="stylesheet" href="css/estils.css">
 </head>
 <body>
     <header>
         <div class="logotipo">
-            <img src="" alt="">
+            <img src="images/badalona-tech-svg/logo-robot-blanco.svg" alt="logotipo">
         </div>
         <div id="nombre-header">
-        <h1>Badalona Tech 2027</h1>
+        <span>Badalona Tech 2027</span>
         <p>Fira de tecnologia, informació i innovació</p>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html" class="btn-inici">Inici</a></li>
                 <li><a href="activitats.html">Activitats</a></li>
-                <li><a href="horaris.html">Horaris</a></li>
+                <li><a href="#">Horaris</a></li>
                 <li><a href="inscripcio.html">Inscripció</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <h1>Horaris de la fira</h1>
+        <p>Consulta es horaris de els activitats programades per al cap de setmana.</p>
+        <table>
+            <caption>Programa Badalona Tech 2027</caption>
+            <thead>
+                <tr>
+                    <th>Horari</th>
+                    <th>Dissabte</th>
+                    <th>Diumenge</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>10:00–11:00</th>
+                    <td>Taller de robòtica</td>
+                    <td>Crea la teva primera web</td>
+                </tr>
+                <tr>
+                    <th>11:00–12:00</th>
+                    <td>Ciberseguretat</td>
+                    <td>Taller de robòtica</td>
+                </tr>
+                <tr>
+                    <th>12:00–13:00</th>
+                    <td>Crea la teva primera web</td>
+                    <td>Ciberseguretat</td>
+                </tr>
+                <tr>
+                    <th>13:00–14:00</th>
+                    <td colspan="2">Descans i visita lliure</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total: 6 activitats programades</th>
+                </tr>
+            </tfoot>
+        </table>
+        <div>
+            <img src="images/badalona-tech-svg/fletxa-dreta.svg" alt="Ves directament al taller de robòtica">
+            <a href="activitats.html">Ves directament al taller de robòtica</a>
+        </div>
+    </main>
+    <footer>
+        <div id="badalona-tech">
+            <p>Badalona Tech 1027 -- Portal informatiu</p>
+            <img src="images/badalona-tech-svg/correu.svg" alt="enllaç extern" width="25px">
+        </div>
+        <div id="correo">
+            <img src="images/badalona-tech-svg/enllac-extern.svg" alt="enllaç extern" width="20px">
+            <a href="info@badalonatech.cat">info@badalonatech.cat</a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width: 1800px;
 }
 header{
     display: flex;
@@ -15,6 +16,18 @@ header nav ul li a{
 }
 header nav ul li{
     list-style: none;
+    padding-right: 20px;
+}
+header img{
+    border-right: 1px solid white;
+    padding: 5px 20px 5px 30px;
+}
+#nombre-header{
+    padding: 5px 0px 5px 30px;
+}
+span{
+    font-weight: 800;
+    font-size: 20px;
 }
 header nav ul{
     display: flex;
@@ -34,4 +47,67 @@ header nav ul{
 }
 .logotipo{
     border-right: 1px solid white;
+}
+footer{
+    display: flex;
+    background-color: rgb(3, 19, 61);
+    color: white;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: baseline;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#ajuntament{
+    padding-left: 650px;
+    padding-right: 100px;
+    border-right: 1px solid white;
+}
+#correo{
+    padding-right: 650px;
+    margin-top: 10px;
+}
+#badalona-tech{
+    display: flex;
+    padding-left: 500px;
+    padding-right: 100px;
+    border-right: 1px solid white;
+}
+fieldset{
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin: 40px 100px 40px 100px;
+    padding: 20px;
+}
+legend{
+    color: rgb(16, 16, 175);
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 6px 10px 6px 10px;
+    font-weight: 800;
+}
+#titulo-fira{
+    display: flex;
+}
+#titulo-fira h1{
+    color: rgb(2, 14, 124);
+}
+#imagen-benvinguts{
+    width: 10px;
+    border-radius: 15px;
+}
+#arees-tematiques-y-com-participar{
+    display: flex;
+    justify-content: center;
+}
+#areas{
+    background-color: lightblue;
+    padding: 10px 10px 20px 30px;
+}
+#participar{
+    background-color: lightblue;
+    padding: 10px 30px 20px 10px;
 }
