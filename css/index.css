@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    background-color: rgb(34, 34, 192);
+    color: white;
+    flex-direction: row;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: end;
+    margin-left: 900px;
+}
+#nombre-header{
+    justify-content: start;
+}
